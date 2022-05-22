@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light/Dark mode</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Dark Mode Switch -->
+    <div class="theme-switch-wrapper">
+      <span id="toggle-icon">
+        <span class="toggle-text">Light Mode</span>
+        <i class="fas fa-sun"></i>
+      </span>
+      <label class="theme-switch">
+        <input type="checkbox" />
+        <div class="slider round"></div>
+      </label>
+    </div>
+
+    <nav id="nav">
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+
+    <section id="home">
+      <div class="title">
+        <h1>Custom Headline.</h1>
+        <h2>Welcome to your website!</h2>
+      </div>
+    </section>
+
+    <section id="about">
+      <h1>Undraw Illustrations</h1>
+      <div class="about-container">
+        <div class="image-container">
+          <h2>Web Innovation</h2>
+          <img id="image1" src="img/image1-light.svg" />
+        </div>
+        <div class="image-container">
+          <h2>Problem Solving</h2>
+          <img id="image2" src="img/image2-light.svg" />
+        </div>
+        <div class="image-container">
+          <h2>High Concept</h2>
+          <img id="image3" src="img/image3-light.svg" />
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h1>Buttons</h1>
+      <div class="buttons">
+        <button class="primary">PRIMARY</button>
+        <button class="secondary">SECONDARY</button>
+        <button class="primary" disabled>DISABLED</button>
+        <button class="outline">OUTLINED</button>
+        <button class="secondary outline">ALT-OUTLINED</button>
+        <button class="outline" disabled>DISABLED</button>
+      </div>
+      <div class="text-box" id="text-box">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+          excepturi eligendi exercitationem? Vel temporibus explicabo fuga ex
+          odio a nobis! Eos aperiam nulla fuga! Sunt tempora repudiandae magnam.
+          Facilis, tempora.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="social-icons">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-codepen"></i>
+        <i class="fab fa-linkden-in"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+    </section>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
